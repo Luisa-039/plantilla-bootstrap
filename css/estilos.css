@@ -1,0 +1,99 @@
+.bg-color{
+    background-color: #a7c44c;
+}
+
+.text-color{
+    color: white;
+}
+
+.intro-equipo{
+    display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/equipo-bg.jpg) no-repeat center bottom;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.equipo{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.equipo-img{
+    width: 200px;
+	height: 200px;
+	box-shadow: 15px 0 #96b044;
+}
+
+.equipo .thumbnail{
+    background: transparent;
+	border: 0;
+}
+
+.equipo-2{
+    margin-top: 3em;
+}
+
+#menu a.navbar-proyectos {
+	font-size: 22px;
+	color: #a7c44c;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.bg-clarito{
+    background-color: rgba(243, 236, 236, 0.534);
+}
+
+.proyecto-portafolio{
+    margin-top: 3em;
+    padding-top: 1em;
+}
+
+.servicios{
+    margin-top: 2em;
+}
+
+.servicios-1{
+    margin-top: 6em;
+}
+
+#servicios .thumbnail:hover{
+    background-color: rgba(231, 228, 228, 0.774);
+}
+
+.historia{
+    margin-top: 8em;
+    padding: 1em;
+}
+
+.img-estudio{
+    width: 50%;
+    border-radius: 7px;
+}
+
+.estudio{
+    margin: 4em auto;
+}
+
+.estudio p{
+    color: black;
+}
+
+.text-dark{
+    color: black;
+    font-size: 2em;
+}
+
+
+@media (max-width:670px) {
+    .categories .boton{
+        margin-top: 3em;
+    }
+
+}
